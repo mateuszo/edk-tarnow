@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  assetPrefix: "edk-tarnow",
 };
 
 module.exports = nextConfig;
