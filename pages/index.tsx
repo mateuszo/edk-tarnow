@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" />
       </Head>
       <Header />
-      <main>
+      <main className="m-3">
         <h1 className="text-5xl font-bold">EDK Tarnów 2023 - 31.03.2023</h1>
         <p className="mt-2">
           EDK-Tarnów 2023 rozpocznie się Mszą Świętą o godzinie 21:00 w kościele Księży Misjonarzy w Tarnowie (parafia

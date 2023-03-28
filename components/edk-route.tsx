@@ -11,8 +11,8 @@ export default function EdkRoute({ edkRouteData }: { edkRouteData: EdkRouteData 
 
   return (
     <>
-      <div className="flex mt-8">
-        <div className="flex-1">
+      <div className="flex mt-8 flex-wrap">
+        <div className="lg:w-1/2 w-full">
           <h2 className="text-4xl font-bold">
             <span className="text-black bg-white">{edkRouteData.name} </span>
           </h2>
@@ -31,7 +31,7 @@ export default function EdkRoute({ edkRouteData }: { edkRouteData: EdkRouteData 
               <p>{edkRouteData.ascent} m</p>
             </div>
           </div>
-          <div className="flex text-black justify-evenly mt-4">
+          <div className="flex flex-wrap text-black justify-evenly mt-4">
             {edkRouteData.descriptionLink ? (
               <Link href={edkRouteData.descriptionLink} target="_blank">
                 <div className="bg-white rounded-lg m-2 p-2">
@@ -65,7 +65,7 @@ export default function EdkRoute({ edkRouteData }: { edkRouteData: EdkRouteData 
             )}
           </div>
         </div>
-        <div className="flex-1">{edkRouteData.kmlLink ? <RouteMap kmlLink={edkRouteData.kmlLink} /> : ""}</div>
+        <div className="lg:w-1/2 w-full">{edkRouteData.kmlLink ? <RouteMap kmlLink={edkRouteData.kmlLink} /> : ""}</div>
       </div>
     </>
   );

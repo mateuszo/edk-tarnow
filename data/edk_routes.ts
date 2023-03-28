@@ -33,7 +33,8 @@ export const EDK_ROUTES: EdkRouteData[] = [
     end: "Kozieniec",
     length: 54,
     ascent: 869,
-    description: "Kościół Św. Rodziny w Tarnowie →Łukanowice→Wojnicz→Panieńska Góra→Roztoka→Zakliczyn→Czchów→Kozieniec",
+    description:
+      "Kościół Św. Rodziny w Tarnowie → Łukanowice → Wojnicz → Panieńska Góra → Roztoka → Zakliczyn → Czchów → Kozieniec",
     descriptionLink:
       "/edk_routes/Tarnów - Panieńska Góra - Kozieniec/EDK - Tarnow - Panieńska Góra - Kozieniec - 2022 v9.pdf",
     kmlLink: "/edk_routes/Tarnów - Panieńska Góra - Kozieniec/Tarnów - Panieńska Góra - Kozieniec - v2.kml",
@@ -76,7 +77,8 @@ export const EDK_ROUTES: EdkRouteData[] = [
     end: "Kozieniec",
     length: 47,
     ascent: 836,
-    description: "Kościół Św. Rodziny w Tarnowie →Łukanowice→Wojnicz→Grabno→Złota→Lewniowa→Tworkowa→Czchów→Kozieniec",
+    description:
+      "Kościół Św. Rodziny w Tarnowie → Łukanowice → Wojnicz → Grabno → Złota → Lewniowa → Tworkowa → Czchów → Kozieniec",
     descriptionLink: "/edk_routes/Tarnów - Wojnicz - Kozieniec/EDK - Tarnow - Wojnicz - Kozieniec - 2022 v6.pdf",
     kmlLink: "/edk_routes/Tarnów - Wojnicz - Kozieniec/EDK - Tarnów - Wojnicz - Kozieniec - v5.kml",
     mapLink: "/edk_routes/Tarnów - Wojnicz - Kozieniec/EDK - Tarnow - Wojnicz - Kozieniec - mapka.pdf",
