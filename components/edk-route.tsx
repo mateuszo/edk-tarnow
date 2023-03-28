@@ -1,8 +1,8 @@
-import dynamic from "next/dynamic";
-
 import { EdkRouteData } from "@/data/edk_routes";
 import { ArrowTrendingUpIcon, DocumentTextIcon, MapIcon } from "@heroicons/react/24/outline";
+import dynamic from "next/dynamic";
 import Link from "next/link";
+// import RouteMap from "./route-map";
 
 export default function EdkRoute({ edkRouteData }: { edkRouteData: EdkRouteData }) {
   const RouteMap = dynamic(() => import("./route-map"), {
