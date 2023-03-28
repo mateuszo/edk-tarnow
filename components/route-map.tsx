@@ -13,7 +13,7 @@ export default function RouteMap({ kmlLink }: { kmlLink: string }) {
         const kml = parser.parseFromString(kmlText, "text/xml");
         setKml(kml as any);
       });
-  }, []);
+  }, [kmlLink]);
 
   return (
     <div>
