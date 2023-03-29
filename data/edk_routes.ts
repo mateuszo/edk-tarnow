@@ -51,8 +51,7 @@ export const EDK_ROUTES: EdkRouteData[] = [
     descriptionLink:
       "/edk_routes/Tarnów - Pleśna - Kozieniec/EDK - Tarnow - Pleśna - Zakliczyn - Kozieniec - 2023 v6.pdf",
     kmlLink: "/edk_routes/Tarnów - Pleśna - Kozieniec/EDK - Tarnow - Plesna - Zakliczyn - Kozieniec - 2023 v6.kml",
-    mapLink:
-      "public/edk_routes/Tarnów - Pleśna - Kozieniec/EDK - Tarnow - Pleśna - Zakliczyn - Kozieniec - mapa - v1.pdf",
+    mapLink: "/edk_routes/Tarnów - Pleśna - Kozieniec/EDK - Tarnow - Pleśna - Zakliczyn - Kozieniec - mapa - v1.pdf",
   },
   {
     id: 8622,
@@ -162,7 +161,7 @@ export const EDK_ROUTES: EdkRouteData[] = [
     ascent: 639,
     description:
       "Kościół św Rodziny Tarnów → Zbylitowska Góra → Łukanowice → Wojnicz → Sufczyn → Dębno → Porąbka Uszewska → Góra św Anny → Okocim → Sanktuarium św. Jakuba Brzesko",
-    descriptionLink: "public/edk_routes/Tarnów - Brzesko - Via Regia/Tarnów - Brzesko - Via regia - v4.pdf",
+    descriptionLink: "/edk_routes/Tarnów - Brzesko - Via Regia/Tarnów - Brzesko - Via regia - v4.pdf",
     kmlLink: "/edk_routes/Tarnów - Brzesko - Via Regia/Tarnów - Brzesko - Via regia - v1.kml",
     mapLink: "/edk_routes/Tarnów - Brzesko - Via Regia/Tarnów - Brzesko - Via regia - mapa - 2022 v1.pdf",
   },
